@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    [
+      {
+        "alignItems": "flexStart",
+        "backgroundColor": "#f0f0f0",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "flexStart",
+        "paddingHorizontal": 8,
+        "paddingVertical": 8,
+      },
+      {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "blue",
+        "fontSize": 32,
+        "marginVertical": 32,
+      }
+    }
+  >
+    Todo:
+  </Text>
+  <RCTScrollView
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    style={
+      {
+        "width": "100%",
+      }
+    }
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderRadius": 24,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingHorizontal": 8,
+        "paddingVertical": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Add new todos"
+      style={
+        {
+          "flex": 1,
+          "fontSize": 18,
+        }
+      }
+      value=""
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "blue",
+            "borderRadius": 24,
+            "padding": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#fff",
+              "fontSize": 18,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          ADD
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
